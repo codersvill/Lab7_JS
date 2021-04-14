@@ -1,14 +1,11 @@
-function init(){
-	function myEventFunction(){
-		alret('Hi');
+function init() {
+	var entryText = document.getElementById('entrybutton');
+	function myAlert({
+	var inText = document.getElementById("entryinput");
+	var outText = document.getElementById("textoutput");
+	alret("Daniel: " + inText.Value);
+	outText.innerHTML = inText.value;
 	}
-
-var d4 = document.getElementById('div4');
-	d4.addEventListener('click','myEventFunction);
-	d4.addEventListener('click',function(){
-		console.log('I was clicked');
-	d4.style.backgroundColor='#C00';
-	d4.innerHTML = '<strong>Goodbye</strong>';
-});
-
-window.addEventListener('load', init);
+	entryText/addEventListener('click, myAlert);
+	}
+	window.addEventListener('load',init);
