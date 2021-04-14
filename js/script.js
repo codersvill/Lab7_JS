@@ -6,6 +6,6 @@ function init() {
 	alret("Daniel: " + inText.Value);
 	outText.innerHTML = inText.value;
 	}
-	entryText/addEventListener('click, myAlert);
+	entryText/addEventListener('click', myAlert);
 	}
 	window.addEventListener('load',init);
